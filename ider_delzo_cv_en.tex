@@ -1,0 +1,212 @@
+%% start of file `curriculo_ider_en.tex'.
+%% Based on template from  Xavier Danaux (xdanaux@gmail.com).
+%% Copyright Ider Delzo (soloidx@gmail.com) 2009 - 2011 
+%
+%Permission is granted to copy, distribute and/or modify this
+%document under the terms of the GNU Free Documentation License,
+%Version 1.3 or any later version published by the Free Software
+%Foundation; with no Invariant Sections, no Front-Cover Texts and
+%no Back-Cover Texts.  A copy of the license is included in the
+%file named "LICENSE".
+
+
+\documentclass[11pt,a4paper]{moderncv}
+
+\moderncvtheme[blue]{casual}
+%\moderncvtheme[red]{classic}
+
+\usepackage[utf8]{inputenc}
+
+% adjust the page margins
+\usepackage[scale=0.8]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}
+%\AtBeginDocument{\setlength{\maketitlenamewidth}{6cm}}  % only for the classic theme
+\AtBeginDocument{\recomputelengths}               % required when changes are made to page layout lengths
+
+% personal data
+\firstname{Ider}
+\familyname{Delzo}
+\title{Developer}
+\address{Av. Larco 189 }{Lima}
+\mobile{965036248}
+\email{soloidx@gmail.com}
+\photo[64pt]{ider}
+\quote{Web Developer with experience in open source tools , IPhone application developer, advanced GNU/Linux management skills and knowledge in computer hardware}
+
+%\nopagenumbers{}                             % uncomment to suppress automatic page numbering for CVs longer than one page
+
+
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+\maketitle
+
+\section{Education}
+\cventry{2008--2009}{Student}{Instituto Superior Tecnológico Privado Continental}{Huancayo}{}{}
+%\cventry{2006--2007}{Alumno}{Universidad Nacional del Centro del Perú}{Huancayo}{}{}
+
+\section{Complementary formation}
+\cventry{2009}{Course: Networks and connectivity}{Professional extension center of the Continental University}{}{}{}
+\cventry{2008}{Course: Computer Architecture}{Tecsup Virtual}{}{}{}
+\cventry{2008}{Course: .NET Developer}{Professional extension center of the Continental University}{}{}{}
+\cventry{2007}{Course: Computer Assembly}{ITEC Technologic Institute}{}{}{}
+\cventry{2007}{Course: Computer Assembly}{CLANAR - UNCP}{}{}{}
+\cventry{2007}{Course: Graphic Design}{National Informatic Program (PNI) - SENATI}{}{}{}
+\cventry{2006}{Course: Web Design Technologies}{PNI - SENATI}{}{}{}
+\cventry{2005}{Course: Networks and connectivity}{CEO - Spectrum}{}{}{}
+
+\section{Professional experience}
+%\subsection{Vocational}
+\cventry{Mar. 2011 Dec. 2012}{Developer}{Pariwana Hostels}{Lima}{}
+{
+    \url{http://pariwana-hostel.com/}
+    \newline{}
+    Web application development for a reservation system and a POS system
+    \newline{}
+    Platform: Django/Python and MySQL
+}
+
+\cventry{Set. 2011 Dec. 2012}{Developer}{Bitzeppelin.com}{Lima}{}{
+    \url{http://bitzeppelin.com}
+    \begin{itemize}
+        \item Shopping list for Wong Supermarket
+            \newline{}
+            IPhone mobile application
+            \newline{}
+            Platform: IOS SDK and Three20 framework
+            \newline{}
+            Not yet published
+            \newline{}
+        \item Plaza Vea Application
+            \newline{}
+            IPhone mobile application
+            \newline{}
+            Platform: IOS SDK and Three20 framework
+            \newline{}
+            Still in development
+    \end{itemize}
+}
+
+\cventry{Ene. 2011}{Developer}{GRUPO EL COMERCIO}{Lima}{}{
+    \url{http://grupoelcomercio.com.pe}
+    \begin{itemize}
+        \item Backend maintenance of Aptitus
+            \newline{}
+            \url{http://aptitus.pe/}
+            \newline{}
+            Platform: Python, Django and MySQL
+            \newline{}
+        \item Backend maintenance of Neoauto
+            \newline{}
+            \url{http://neoauto.pe/}
+            \newline{}
+            Platform: Python, Django and MySQL
+            \newline{}
+        \item Internal URL Shortener
+            \newline{}
+            Platform: Tornado, MongoEngine and MongoDB
+            \newline{}
+    \end{itemize}
+}
+
+\cventry{2010--2011}{Developer}{ICTEC}{Lima}{}{
+    \url{http://www.ictec.biz/}
+    \begin{itemize}
+        \item Neoauto reseller submodule
+            \newline{}
+            \url{http://neoauto.pe/}
+            \newline{}
+            Platform: Python, Django and MySQL
+            \newline{}
+        \item OAUTH Authentication server for Yell Perú
+            \newline{}
+            \url{http://mis.paginasamarillas.pe/login}
+            \newline{}
+            Platform: Tornado, MongoEngine and MongoDB
+            \newline{}
+        \item OAUTH client for URL Shortener for Yell Perú
+            \newline{}
+            Platform: Tornado, MongoEngine and MongoDB
+            \newline{}
+    \end{itemize}
+}
+
+\cventry{2008--2010}{Developer}{ETICOM}{Huancayo}{}{
+    \begin{itemize}
+        \item Wep application for money transfers
+            \newline{}
+            Platform: PHP, Symfony and PostgreSQL
+            \newline{}
+        \item Web application of a billing system
+            \newline{}
+            Platform: PHP, Symfony and MySQL
+            \newline{}
+        \item Implementation of a Firewall server and VPN
+            \newline{}
+            Platform: FreeBSD and PFSense
+            \newline{}
+        \item Implementation of a XMPP server
+            \newline{}
+            Platform: Jabberd and GNU/Linux
+            \newline{}
+    \end{itemize}
+}
+
+%\subsection{Miscellaneous}
+
+\section{Languages}
+\cvlanguage{Spanish}{Native}{}
+\cvlanguage{English}{Basic}{Intermediate reading level, basic spoken level}
+
+\section{Knowledge}
+\cvcomputer{SO}{Gnu/Linux (Ubuntu, Debian, Archlinux), Windows, MacOSX}{Admin.}{Apache, PFSense, Vsftp, OpenVpn}
+\cvcomputer{Graphic Design}{GIMP, Inkscape, Blender, Scribus, Coreldraw, Adobe Photoshop, Adobe InDdesign}{Web Design}{HTML, CSS, Symfony (PHP), Django (Python), Jquery(javascript)}
+\cvcomputer{Mobile Development}{Objetive-C, IOS SDK (Three20)}{Databases}{Mysql, PostgreSQL}
+\cvcomputer{}{}{Others}{Audio and video editing}
+
+\closesection{}
+
+\section{Hobbies}
+\cvline{Design}{\small Design and photo retouching with open source software, 3D design and animation}
+\cvline{Audio and video}{\small Audio editing, mixing, basic video editing and video effects}
+
+\renewcommand{\listitemsymbol}{-}
+
+\section{Assisted events}
+\cvlistitem{I Event COREFIS - UNCP (organizer)}
+\cvlistitem{VIII Regional Congress of System Engineering Students - UNCP (organizer)}
+\cvlistitem{Web Developer Workshop with Php and Symfony - ISTP Continental (speaker)}
+\cvlistitem{I and II Hacksol - Continental Educational Organization (speaker)}
+\cvlistitem{UCSSINUX Open Day - Universidad Católica Sedes Sapientiae (speaker)}
+
+\end{document}
+
+\section{References}
+\cvlistitem
+{
+    \textbf{Breno Colom}
+    \newline{}
+    Bit Zeppelin CEO
+    \newline{}
+    \url{breno@breno.org}
+}
+\cvlistitem
+{
+    \textbf{Jean Pierre Chauvel}
+    \newline{}
+    Work partner at ICTEC and Bitzeppelin
+    \newline{}
+    \url{jchauvel@gmail.com}
+}
+\cvlistitem
+{
+    \textbf{Luciano Palomino}
+    \newline{}
+    Web developer at EPENSA
+    \newline{}
+    \url{luciano@palomino.pe}
+}
+\end{document}
+
+%% end of file `curriculo_ider_en.tex'.
