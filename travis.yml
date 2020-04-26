@@ -1,0 +1,20 @@
+language: python
+
+python:
+  - "3.8"
+
+install:
+  - pip install pipenv
+  - pipenv install --system --deploy
+
+script:
+  - deploy.sh
+
+deploy:
+  provider: pages
+  local_dir: output
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
+  keep_history: true
+  on:
+    branch: master

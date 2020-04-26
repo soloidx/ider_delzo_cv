@@ -1,89 +1,189 @@
-## Core latex/pdflatex auxiliary files:
-*.aux
-*.lof
-*.log
-*.lot
-*.fls
-*.out
-*.toc
+output
 
-## Intermediate documents:
-*.dvi
-# these rules might exclude image files for figures etc.
-# *.ps
-# *.eps
-*.pdf
+# Created by https://www.gitignore.io/api/macos,emacs,python
+# Edit at https://www.gitignore.io/?templates=macos,emacs,python
 
-## Bibliography auxiliary files (bibtex/biblatex/biber):
-*.bbl
-*.bcf
-*.blg
-*-blx.aux
-*-blx.bib
-*.run.xml
+### Emacs ###
+# -*- mode: gitignore; -*-
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
 
-## Build tool auxiliary files:
-*.fdb_latexmk
-*.synctex.gz
-*.synctex.gz(busy)
-*.pdfsync
+# Org-mode
+.org-id-locations
+*_archive
 
-## Auxiliary and intermediate files from other packages:
+# flymake-mode
+*_flymake.*
 
-# algorithms
-*.alg
-*.loa
+# eshell files
+/eshell/history
+/eshell/lastdir
 
-# amsthm
-*.thm
+# elpa packages
+/elpa/
 
-# beamer
-*.nav
-*.snm
-*.vrb
+# reftex files
+*.rel
 
-# glossaries
-*.acn
-*.acr
-*.glg
-*.glo
-*.gls
+# AUCTeX auto folder
+/auto/
 
-# hyperref
-*.brf
+# cask packages
+.cask/
+dist/
 
-# listings
-*.lol
+# Flycheck
+flycheck_*.el
 
-# makeidx
-*.idx
-*.ilg
-*.ind
-*.ist
+# server auth directory
+/server/
 
-# minitoc
-*.maf
-*.mtc
-*.mtc0
+# projectiles files
+.projectile
 
-# minted
-*.pyg
+# directory configuration
+.dir-locals.el
 
-# nomencl
-*.nlo
+# network security
+/network-security.data
 
-# sagetex
-*.sagetex.sage
-*.sagetex.py
-*.sagetex.scmd
 
-# sympy
-*.sout
-*.sympy
-sympy-plots-for-*.tex/
+### macOS ###
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
 
-# todonotes
-*.tdo
+# Icon must end with two \r
+Icon
 
-# xindy
-*.xdy
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+### Python ###
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Translations
+*.mo
+*.pot
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# pyenv
+.python-version
+
+# pipenv
+#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
+#   However, in case of collaboration, if having platform-specific dependencies or dependencies
+#   having no cross-platform support, pipenv may install dependencies that don't work, or not
+#   install all needed dependencies.
+#Pipfile.lock
+
+# celery beat schedule file
+celerybeat-schedule
+
+# SageMath parsed files
+*.sage.py
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# Mr Developer
+.mr.developer.cfg
+.project
+.pydevproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# End of https://www.gitignore.io/api/macos,emacs,python
