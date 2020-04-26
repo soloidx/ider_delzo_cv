@@ -8,7 +8,7 @@ install:
   - pipenv install --system --deploy
 
 script:
-  - deploy.sh
+  - bash deploy.sh
 
 deploy:
   provider: pages
