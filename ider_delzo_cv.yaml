@@ -1,0 +1,389 @@
+cv_file_version: 1
+
+personal_info:
+  first_name: Ider
+  last_name: Delzo
+  title: Software developer
+  headline: Developer, with 10+ years working with web technologies (mostly
+    Python and Django) I love to learn and I have knowledge of HTML, CSS and JS
+    (libraries included). Also I have experience with cloud technologies iOS
+    Development, Golang and CI / CD technologies.
+  address: Calle César Vallejo 151 La Perla - Callao, Peru
+  phone: (+51) 965036248
+  email: soloidx@gmail.com
+  webpage: http://ider.ninja
+  picture: profile.jpg
+
+core_formation:
+  - course:
+      title: "Undergraduated"
+      date: 2008 - 2009
+      institution: Instituto Superior Tecnológico Privado Continental
+      location: Huancayo
+
+complementary_formation:
+  - course:
+      title: "Essential Google Cloud Infraestructure: Foundation"
+      date: 2020
+      institution: Coursera
+  - course:
+      title: "Google Cloud Platform Fundamentals: Core Infraestructure"
+      date: 2020
+      institution: Coursera
+  - course:
+      title: "Google Cloud Infrastructure: Core Services"
+      date: 2020
+      institution: Coursera
+  - course:
+      title: "Go Fundamentals"
+      date: 2017
+      institution: Pluralsigt
+  - course:
+      title: "Course: Networks and connectivity"
+      date: 2009
+      institution: Professional extension center of the Continental University
+  - course:
+      title: "Course: Computer Architecture"
+      date: 2008
+      institution: Tecsup Virtual
+  - course:
+      title: "Course: .Net Developer"
+      date: 2008
+      institution: Professional extension center of the Continental University
+  - course:
+      title: "Course: Computer assembly and maintenance"
+      date: 2007
+      institution: ICTEC Technology Institute
+
+professional_experience:
+  - work:
+      date: Sep. 2018. - Apr. 2020
+      job_title: Sr. Software developer
+      place: Xapo, remote
+      website: http://www.xapo.com
+      projects:
+        - project:
+            title: API Backend development
+            description: Creating a microservice API that integrates with a 3rd.
+              party card provider.
+            platform: Python, Flask, AWS, Jenkins, Git.
+
+        - project:
+            title: API Backend maintenance
+            description: Adding more features and maintenance of a microservice
+              api.
+            platform: Python, Flask, AWS, Jenkins, Git.
+
+  - work:
+      date: Ago. 2017. - Ago. 2018
+      job_title: Software developer
+      place: PASTPRESENTFUTURE, Lima
+      website: http://www.pastpresentfuture.com
+      projects:
+        - project:
+            title: Backend development
+            description: Migrating the legacy mobile backend to a new server
+              with AWS, adding new features, implementing the continous
+              integration and continous delivery platform for the project,
+              implementing load balacers and scalability strategy to the servers
+              and adding realtime messages using websockets.
+            platform: Python, Django, AWS, Javascript, NodeJS,
+              ReactJS, PostgreSQL, Git.
+            url: http://triboapp.com
+
+        - project:
+            title: Internal backend administrator
+            description: Working with a team developing a new administrator
+              interface for a mobile backend, implementing the continous
+              integration server and testing  servers.
+            platform: Javascript, ReactJS, GraphQL, Git.
+            url: http://triboapp.com
+
+        - project:
+            title: Mobile development
+            description: Working with a team developing new features with an
+              mobile hybrid app (React Native), adding real time comuncation with
+              the servers and helping with performance fixes.
+            platform: React Native, IOS, Android, Websockets, Git.
+            url: http://triboapp.com
+
+        - project:
+            title: Full stack developer
+            description: Working with a team helping them to deploy his web
+              application to a production instance, planing and deploying the auto
+              scale infraestructure in AWS.
+            platform: Javascript, Angular, Ruby, MongoDB, AWS.
+            url: https://www.patrickmcmullan.com
+
+        - project:
+            title: Backend developer
+            description: Working in a backend service for a internal mobie
+              application, planing the continous integration and integrating with
+              the mobile application.
+            platform: Python, Django, Postgresql.
+            url: http://www.smallarmssurvey.org
+
+  - work:
+      date: Jul. 2015. - Jul. 2017
+      job_title: Software developer
+      place: Number 8 (former Prosoft Nearshore), Remote
+      website: https://number8.com/
+      projects:
+        - project:
+            title: Testing automation
+            description: Writing and execution of functional and integration
+              tests with a Ci system and other monitors.
+            platform: Javascropt, Protractor, Jasmine, PHP, CircleCI, Code
+              Climate, Docker, NodeJS.
+
+        - project:
+            title: Testing automation
+            description: Writing and execution of integration tests over a
+              flegacy API with a CI system.
+            platform: Golang, Ginkgo, Docker, PHP, CircleCI, Git
+
+        - project:
+            title: API development
+            description: Writing a microservice API
+            platform: Golang, MySQL, JWT, Docker, CircleCI, Git
+
+        - project:
+            title: AWS Checker
+            description: Develop of a script that check for leaked AWS keys in
+              repositories
+            platform: Python, AWS Lambda
+
+  - work:
+      date: Nov. 2014. - Jul 2015
+      job_title: Web developer
+      place: PASTPRESENTFUTURE, Lima
+      website: http://www.pastpresentfuture.com
+      projects:
+        - project:
+            title: Job posting application
+            description: Python web application.
+            platform: Django/Python PostreSQL, Redis, RabbitMQ, Celery, Git, CircleCI.
+
+        - project:
+            title: Web mobile product for search and post items
+            description: Mobile site for post and search items similar to eBay.
+            platform: Html5/Javascript, Ionic, AngularJS, Testflight, Git
+
+        - project:
+            title: Site for an online document search
+            description: Site for search and tagging of articles in agreements
+            platform: Html5/Javascript, Drupal 7, PHP, AngularJS, ExpressJS, NodeJs, Git
+            url: https://www.languageofpeace.org/
+
+        - project:
+            title: Website for a company
+            description: Landing site that shows the yearly review of a company
+            platform: Html5/Javascript, CSS3 Animations, GreenshockJS,
+              Javascript, Git
+            url: http://2014.xad.com
+
+        - project:
+            title: Online news site
+            description: Rebuild of an online news site
+            platform: Html5/Javascript, Drupal 7, PHP, Jquery, Disqus, Git
+
+  - work:
+      date: Jan. 2013. - Nov 2014
+      job_title: iOS / Web developer
+      place: Taller Technologies, Lima
+      website: http://tallertechnologies.com/
+      projects:
+        - project:
+            title: Chat application WhatsApp like
+            description: IPhone native application
+            platform: IOS SDK, Amazon S3, XMPPFramework, Jenkins, TestFlight, Git
+
+        - project:
+            title: Social network of encrypted photos
+            description: IPhone native application
+            platform: IOS SDK, Facebook SDK, Jenkins, Git
+
+        - project:
+            title: Mobile product catalog
+            description: Web mobile application
+            platform: Html5/Javascript, Sencha Touch, Jenkins, Testflight, Git
+
+        - project:
+            title: Survey application
+            description: Web mobile application
+            platform: Html5/Javascript, Sencha Touch, Phonegap, Jenkins, Testflight, Git
+
+        - project:
+            title: Event mobile application maintenance
+            description: IPhone native application
+            platform: iOS SDK, Facebook SDK, Twitter SDK, Jenkins, Git
+
+        - project:
+            title: Web site maintenance
+            platform: Html, Javascript, PHP, Git
+
+        - project:
+            title: Web site implementation
+            platform: Html, Javascript, PHP, Drupal, Git
+
+        - project:
+            title: Web site maintenance and migration
+            platform: Html, Javascript, PHP, Kohana, Git
+
+  - work:
+      date: 2011. - 2013
+      job_title: Full stack developer
+      place: Pariwana Hostels, Lima
+      website: https://www.pariwana-hostel.com/
+      projects:
+        - project:
+            title: Reservation and POS system
+            description: Development of the hostel management system
+            platform: Django/Python and MySQL
+
+  - work:
+      date: Set. 2011. - Dec. 2012
+      job_title: Mobile developer
+      place: Bitzeppelin.com, Lima
+      projects:
+        - project:
+            title: Shopping list for Wong Supermarket
+            description: iOS mobile application
+            platform: IOS SDK and Three20 framework
+
+        - project:
+            title: Plaza Vea Application
+            description: iOS mobile application
+            platform: IOS SDK and Three20 framework
+
+  - work:
+      date: Jan. 2011
+      job_title: Web developer
+      place: Grupo El Comercio, Lima
+      website: https://grupoelcomercio.com.pe/
+      projects:
+        - project:
+            title: Aptitus site backend maintenance
+            description: Web site maintenance
+            platform: Python, Django and MySQL
+            url: http://aptitus.pe/
+
+        - project:
+            title: Neoauto site backend maintenance
+            description: Web site maintenance
+            platform: Python, Django and MySQL
+            url: http://neoauto.pe/
+
+        - project:
+            title: Internal URL Shortener
+            platform: Tornado, MongoEngine and MongoDB
+
+  - work:
+      date: 2010 - 2011
+      job_title: Web developer
+      place: ICTEC, Lima
+      website: http://www.ictec.biz/
+      projects:
+        - project:
+            title: Neoauto reseller module
+            description: Develop of a website submodule
+            platform: Python, Django and MySQL
+            url: http://neoauto.pe/
+
+        - project:
+            title: OAUTH Authentication server for Yell Perú
+            platform: Tornado, MongoEngine and MongoDB
+
+        - project:
+            title: Url shortener server for Yell Perú
+            platform: Tornado, MongoEngine and MongoDB
+
+  - work:
+      date: 2008 - 2010
+      job_title: Web developer
+      place: ETICOM, Huancayo
+      projects:
+        - project:
+            title: Money transfer web application
+            platform: PHP, Symfony and PostreSQL
+
+        - project:
+            title: Billing system web application
+            platform: PHP, Symfony and PostreSQL
+
+        - project:
+            title: Firewall and VPN server implementation
+            platform: FreeBSD and PFSense
+
+languages:
+  - name: Spanish
+    level: Native
+  - name: English
+    level: Advanced
+
+skills:
+  - name: Operating systems
+    list:
+      - GNU/Linux
+      - Windows
+      - MacOS
+  - name: Programming / markup languages
+    list:
+      - Python
+      - Javascript
+      - Golang
+      - Objective-C
+      - CSS
+      - HTML
+  - name: Frameworks / Librarie
+    list:
+      - Django
+      - Flask
+      - Jquery
+      - React / React native
+  - name: Databases
+    list:
+      - MySQL
+      - PostreSQL
+      - MongoDB
+      - Redis
+      - Firebase / Firestore
+  - name: Other tools
+    list:
+      - Testing (Unit, BDD, System, Automation)
+      - Continous integration (Jenkins, Travis, CircleCI, Gitlab)
+      - VCS (Git, SVN)
+      - AWS
+      - Google cloud platform
+  - name: Design
+    list:
+      - Adobe phtoshop
+      - GIMP
+      - Inkscape
+
+hobbies:
+  - name: Mentoring
+    description: Former member of Pluralsigt mentors (2018 - 2019)
+  - name: Audio and video
+    description: Editing, mixing basic audio and video
+
+events:
+  - "Infosoft 2014 - Pontificia Universidad Catolica del Peru (speaker)"
+  - "Flisol 2014 - Continental Educational Organization (speaker)"
+  - "Agiles 2013 - Agiles Perú (attendant)"
+  - "I COREFIS - UNCP (organizer)"
+  - "VIII Regional Congress of System Engineering Students - UNCP (organizer)"
+  - "Web Developer Workshop with Php and Symfony - ISTP Continental (speaker)"
+  - "I and II Hacksol - Continental Educational Organization (speaker)"
+  - "UCSSINUX Open Day - Universidad Católica Sedes Sapientiae (speaker)"
+
+references:
+  - name: Deusdit Correa.
+    title: Country manager of Taller Technologies
+    phone: +5117150625
+  - name: Raul Bustamante.
+    title: Freelance developer
+    email: rtbustamantec@gmail.com
+  - name: Luciano Palomino.
+    title: Web developer
+    email: luciano@palomino.pe
